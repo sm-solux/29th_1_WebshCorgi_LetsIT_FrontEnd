@@ -1,0 +1,19 @@
+.ProfileLink {
+  display: flex;
+  gap: 30px;
+}
+.ProfileLink__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.ProfileLink__icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.ProfileLink__link {
+  width: 230px;
+  text-align: left;
+  flex: 1;
+}

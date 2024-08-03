@@ -1,0 +1,30 @@
+.popularproj {
+  width: 100%;
+  background-color: var(--select-color);
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-family: "pretendardB";
+  font-size: 26px;
+}
+.popularproj_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 360px;
+  padding-top: 50px;
+}
+
+.popularproj__container {
+  display: flex;
+  gap: 20px;
+  width: 1320px;
+}
+
+.noProjectsMessage {
+  margin-left: 543px;
+  margin-top: 100px;
+  z-index: 10;
+}
